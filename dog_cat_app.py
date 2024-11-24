@@ -30,8 +30,8 @@ if uploaded_file is not None:
     #st.write(f"{img, shape}")
 
     # Load the trained model
-    model = load_model("C:/Users/Olamide Joseph/image_st_dep/vgg_model.keras")
-    # model = load_model("vgg_model.keras")
+    # model = load_model("C:/Users/Olamide Joseph/image_st_dep/vgg_model.keras")
+    model = load_model("vgg_model.keras")
     
 
     # Make predictions
